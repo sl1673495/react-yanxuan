@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en" style="font-size:100px"><head><meta charset="utf-8"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><link rel="manifest" href="/manifest.json"><link rel="shortcut icon" href="/favicon.ico"><title>React App</title><script>!function () {
+            const oHtml = document.getElementsByTagName("html")[0]
+            const width = oHtml.clientWidth
+            if (width < 500){
+                oHtml.style.fontSize = 100 * (width / 414) + "px";
+            }
+        }()</script><link href="/static/css/main.d31e1073.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>window.onload=function () {
+            document.addEventListener('touchstart',function (event) {
+                if(event.touches.length>1){
+                    event.preventDefault();
+                }
+            })
+            let lastTouchEnd=0;
+            document.addEventListener('touchend',function (event) {
+                const now=(new Date()).getTime();
+                if(now-lastTouchEnd<=300){
+                    event.preventDefault();
+                }
+                lastTouchEnd=now;
+            },false)
+        }</script><script type="text/javascript" src="/static/js/main.a62cc58d.js"></script></body></html>
