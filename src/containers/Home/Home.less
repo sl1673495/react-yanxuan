@@ -1,0 +1,95 @@
+.home {
+  .home-header {
+    height: .8rem;
+    .fixed-header {
+      position: fixed;
+      width: 100%;
+      background: #fff;
+      z-index: 1;
+      .search-bar {
+        display: flex;
+        padding: .1rem .2rem;
+        .logo {
+          flex: 0 0 .8rem;
+          height: .22rem;
+          margin-right: .1rem;
+          img {
+            width: 100%;
+            height: 100%;
+            margin-top: .03rem;
+          }
+        }
+        .search {
+          display: flex;
+          flex: 1;
+          background: #ededed;
+          height: .3rem;
+          border-radius: 5px;
+          align-items: center;
+          justify-content: center;
+          input {
+            background: transparent;
+            border: none;
+            width: 70%;
+          }
+          .iconfont {
+            margin-right: .05rem;
+          }
+        }
+      }
+      .types-scroll-wrapper {
+        padding-left: .15rem;
+      }
+    }
+  }
+  .index-floor {
+    background: #fff;
+    margin: .1rem 0;
+    .title {
+      padding: .15rem 0;
+      text-align: center;
+      .text {
+        font-size: .17rem;
+        .iconfont {
+          font-size: .18rem;
+        }
+      }
+    }
+    .list {
+      padding: 0 .1rem;
+      display: flex;
+      flex-wrap: wrap;
+      .item {
+        position: relative;
+        width: 49%;
+        margin-bottom: .05rem;
+        &:nth-child(odd) {
+          margin-right: .05rem;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          padding: .1rem 0 0 .1rem;
+          .text {
+            font-size: .14rem;
+            color: #333;
+            margin-bottom: .07rem;
+          }
+          .icon-new {
+            display: block;
+            background: url('https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/new-5e42f2db1f.png')  no-repeat;
+            background-size: 100% 100%;
+            width: .4rem;
+            height: .21rem;
+          }
+        }
+      }
+    }
+  }
+}

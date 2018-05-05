@@ -1,0 +1,27 @@
+body {
+    background: #F1F1F1;
+}
+
+.white {
+    background: #fff;
+}
+
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.clearfix:after {
+    display: table;
+    content: ' ';
+    width: 100%;
+    clear: both;
+}
+input {
+    outline:none;
+}
+
+li {
+    list-style: none;
+}

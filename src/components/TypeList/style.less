@@ -1,0 +1,24 @@
+.yx-types {
+  display: flex;
+  .item {
+    position: relative;
+    line-height: .3rem;
+    font-size: .15rem;
+    padding: 0 .15rem;
+    white-space: nowrap;
+    transition: all .5s;
+    &.active {
+      color: #b4282d;
+      &::after {
+        content: " ";
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 70%;
+        bottom: 0;
+        height: 2px;
+        background: #b4282d;
+      }
+    }
+  }
+}
