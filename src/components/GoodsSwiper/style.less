@@ -1,0 +1,45 @@
+@import "~@/static/css/mixin.less";
+
+.good-list {
+  white-space: nowrap;
+  background: #fff;
+  padding-bottom: .1rem;
+  .item {
+    display: inline-block;
+    width: 1.56rem;
+    padding-left: .15rem;
+    .content {
+      padding: 0 .1rem;
+      .name {
+        .ellipsis();
+        font-size: .15rem;
+        margin-bottom: .1rem;
+        color: #333;
+      }
+      .describe {
+        .ellipsis();
+        margin-bottom: .1rem;
+        font-size: .13rem;
+        color: #7f7f7f;
+      }
+      .price {
+        font-size: .15rem;
+        color: #b4282d;
+      }
+    }
+    .img-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 100%;
+      background: #f4f4f4;
+      margin-bottom: .2rem;
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

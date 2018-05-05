@@ -6,6 +6,46 @@ import TypeList from '@/components/TypeList/TypeList'
 import PolicyList from '@/components/PolicyList/PolicyList'
 import ImageSwipper from '@/components/ImageSwipper/ImageSwipper'
 import ColorPanel from '@/components/ColorPanel/ColorPanel'
+import GoodsSwiper from '@/components/GoodsSwiper/GoodsSwiper'
+
+const newGoods = [
+    {
+        img: 'https://yanxuan.nosdn.127.net/1492eee4a32cac60ef6ef53cdf1855bc.png?imageView&quality=65&thumbnail=330x330',
+        name: '轻灵碳素羽毛球拍',
+        price: 159,
+        describe: '超轻球拍，运动随心'
+    },
+    {
+        img: 'https://yanxuan.nosdn.127.net/6522dceb8f194637a812862a58cf3935.png?imageView&quality=65&thumbnail=330x330',
+        name: '网易智造超静音变频直流风扇',
+        price: 399,
+        describe: '1个月低至1度电，像自然风一样舒服'
+    },
+    {
+        img: 'https://yanxuan.nosdn.127.net/264bfe8941630322e2bdc3f0ccc0e244.png?imageView&quality=65&thumbnail=330x330',
+        name: '雨前西湖龙井（老茶树） 100克',
+        price: 148,
+        describe: '2018新茶，高山老茶树茶，香醇味浓'
+    },
+    {
+        img: 'https://yanxuan.nosdn.127.net/7111fbb51c52d061fd201b49d8228b86.png?imageView&quality=65&thumbnail=330x330',
+        name: '菱形拼接束口双肩包',
+        price: 168,
+        describe: '大容量设计，轻盈储物'
+    },
+    {
+        img: 'https://yanxuan.nosdn.127.net/f0de587302230a65d6ada5626411c15b.jpg?imageView&quality=65&thumbnail=330x330',
+        name: 'Paisley欧式天丝四件套',
+        price: 599,
+        describe: '柔滑兰精天丝，清凉亲肤保湿'
+    },
+    {
+        img: 'https://yanxuan.nosdn.127.net/d64c48b8ea7f3106d6c71389fdab4ba9.png?imageView&quality=65&thumbnail=330x330',
+        name: '健康饮水 宠物自动循环活氧饮水器',
+        price: 239,
+        describe: '活氧体验，让萌宠爱上喝水，呵护爱宠健康'
+    },
+]
 
 export default class Home extends Component {
     constructor(props) {
@@ -88,12 +128,25 @@ export default class Home extends Component {
                         </li>
                     </ul>
                 </section>
-                <ColorPanel
-                    title="新品首发"
-                    bgImage="https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap-d4f7b37e32.png"
-                    textColor="#8BA0B6"
-                    btnColor="#d8e5f1"
-                />
+                <section className="home-color-panel">
+                    <ColorPanel
+                        title="新品首发"
+                        bgImage="https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap-d4f7b37e32.png"
+                        textColor="#8BA0B6"
+                        btnColor="#d8e5f1"
+                    />
+                </section>
+                <section className="home-good-swiper">
+                    <GoodsSwiper goods={newGoods}/>
+                </section>
+                <section className="home-color-panel">
+                    <ColorPanel
+                        title="人气推荐·好物精选"
+                        bgImage="https://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap2-d626e0b52a.png"
+                        textColor="#B4A078"
+                        btnColor="#F4E9CB"
+                    />
+                </section>
             </div>
         )
     }

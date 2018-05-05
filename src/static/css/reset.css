@@ -31,6 +31,8 @@ time, mark, audio, video {
 }
 body {
     line-height:1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
 }
 
 article,aside,canvas,details,figcaption,figure,

@@ -26,7 +26,8 @@ export default class extends Component {
                     index
                 })
             },
-            continues: false
+            continues: false,
+            auto: 2000
         }
 
         const dotClass = (index) => {
@@ -40,17 +41,15 @@ export default class extends Component {
                 >
                     {list.map((image,index) => {
                         return (
-                            <ul className="swipper-groups">
-                                <li key={index} className="swipper-item">
-                                    <img className="swipper-image" src={image} />
-                                </li>
-                            </ul>
+                            <div key={index} className="swipper-item">
+                                <img className="swipper-image" src={image} />
+                            </div>
                         )
                     })}
                 </ReactSwipe>
                 <div className="swiper-dots">
                     {list.map((val, index) =>
-                        <span onClick={() => this.handleClickDot(index)} key={index} className={dotClass(index)}></span>
+                        <span onClick={() => this.handleClickDot(index)} key={index} className={dotClass(index)} />
                     )}
                 </div>
             </div>

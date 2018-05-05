@@ -14,9 +14,9 @@ export default class extends Component {
     render() {
         return (
             <ul className="policy-list">
-                {this.props.policys.map(text => {
+                {this.props.policys.map((text,index) => {
                     return (
-                        <li className="item">
+                        <li className="item"  key={index}>
                             <i className="icon-right" /> <span className="text">{text}</span>
                         </li>
                     )
