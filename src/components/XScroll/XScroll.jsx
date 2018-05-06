@@ -24,7 +24,8 @@ export default class extends Component {
         this.scroll = new BScroll(this.types, {
             scrollX: true,
             eventPassthrough: 'vertical',
-            click: true
+            click: true,
+            bounce: false
         })
     }
 

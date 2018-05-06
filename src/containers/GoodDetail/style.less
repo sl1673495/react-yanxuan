@@ -1,0 +1,159 @@
+@import "~@/static/css/mixin.less";
+
+.good-detail {
+  padding-bottom: .5rem;
+  .good-header-wrapper {
+    height: .5rem;
+    .good-detail-header {
+      position: fixed;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      height: .5rem;
+      width: 100%;
+      background: #fafafa;
+      border-bottom: 1px solid #eaeaea;
+      .iconfont {
+        flex: 0 0 .3rem;
+        font-size: .28rem;
+        margin: 0 .1rem;
+      }
+      .title {
+        font-size: .2rem;
+        flex: 1;
+        .logo {
+          display: block;
+          margin: auto;
+          width: .9rem;
+          height: .31rem;
+          background: url('http://yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/hd-s342878591a-9af1a97852.png') no-repeat;
+          background-size: 100%;
+          background-position: 0px -65px;
+        }
+      }
+    }
+  }
+  .detail-content {
+    .img-wrapper {
+      position: relative;
+      padding-top: 100%;
+      background: #f9f9f9;
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .good-info {
+      display: flex;
+      padding: .3rem .2rem;
+      background: #fff;
+      margin-bottom: .1rem;
+      .info-left {
+        flex: 1;
+        border-right: 1px dashed #919191;
+        .name {
+          .ellipsis();
+          font-size: .18rem;
+          color: #333;
+          margin-bottom: .1rem;
+        }
+        .describe {
+          .ellipsis();
+          font-size: .14rem;
+          color: #7f7f7f;
+          margin-bottom: .1rem;
+        }
+        .price {
+          font-size: .25rem;
+          font-weight: 700;
+          color: #B4282D;
+        }
+      }
+      .info-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 1rem;
+        .comment-num {
+          font-size: .21rem;
+          font-weight: 700;
+          color: #B4282D;
+          margin-bottom: .1rem;
+        }
+        .text {
+          color: #B4282D;
+          font-size: .13rem;
+        }
+      }
+    }
+    .action-wrapper {
+      background: #fff;
+      padding: 0 .2rem;
+      .action-item {
+        display: flex;
+        padding: .2rem 0;
+        font-size: .15rem;
+        color: #333;
+        * {
+          font-size: inherit;
+          color: inherit;
+        }
+        &:not(:last-child) {
+          border-bottom: 1px solid #d9d9d9;
+        }
+        .text-left {
+          padding-right: .1rem;
+          flex: 0 0 auto;
+        }
+        .content-right {
+          flex: 1;
+          .policy-list {
+            .item {
+              margin-bottom: .05rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .shop-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #c7c7c7;
+    display: flex;
+    height: .5rem;
+    background: #fff;
+    z-index: 1;
+    .item {
+      line-height: .5rem;
+      flex: 1;
+      text-align: center;
+      font-size: .16rem;
+    }
+    .buy-now {
+      color: #333;
+      border-right: 1px solid #c7c7c7;
+    }
+    .add-cart {
+      background: #b4282d;
+      color: #fff;
+    }
+    .back {
+      line-height: .5rem;
+      text-align: center;
+      border-right: 1px solid #c7c7c7;
+      flex: 0 0 .5rem;
+      i {
+        color: #333;
+        font-size: .2rem;
+      }
+    }
+  }
+}

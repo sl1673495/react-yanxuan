@@ -16,7 +16,7 @@ export default class extends Component {
     render() {
         const {brand, price, img, isNew, href} = this.props
         return (
-            <a className="brand-item" href={href}>
+            <a className="brand-item">
                 <img src={img} />
                 <div className="content" >
                     <p className="text">

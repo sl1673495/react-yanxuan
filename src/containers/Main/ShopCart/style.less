@@ -1,3 +1,5 @@
+@import "~@/static/css/mixin.less";
+
 .shop-cart {
   .shop-cart-header {
     background: #fff;
@@ -6,6 +8,19 @@
     text-align: center;
     color: #333;
     outline: 1px solid #d9d9d9;
+  }
+  .policys-wrapper {
+    padding: .1rem;
+  }
+  .discount {
+    background: #fff;
+    color: #333;
+    font-size: .16rem;
+    padding: .13rem;
+    .diff {
+      color: #b4282d;
+      font-size: .16rem;
+    }
   }
   .no-goods {
     position: fixed;
@@ -24,6 +39,49 @@
     .text {
       font-size: .15rem;
       color: #999;
+    }
+  }
+  .cart-good-list {
+    .good-item {
+      position: relative;
+      display: flex;
+      background: #fff;
+      padding: .15rem;
+      margin-bottom: .1rem;
+      .radio {
+        flex: 0 0 .2rem;
+      }
+      .img-wrapper {
+        flex: 0 0 .9rem;
+        height: .9rem;
+        img {
+          width: 100%;
+          height: 100%;
+          background: #f4f4f4;
+        }
+      }
+      .good-info {
+        flex: 0 0 2rem;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: .1rem;
+        .name {
+          .ellipsis();
+          font-size: .15rem;
+          color: #333;
+        }
+        .price {
+          font-size: .15rem;
+          color: #b4282d;
+        }
+      }
+      .control {
+        position: absolute;
+        right: .1rem;
+        top: 50%;
+      }
     }
   }
 }

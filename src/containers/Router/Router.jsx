@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
-import { HashRouter,Route,NavLink,Redirect,Switch   } from 'react-router-dom'
+import {HashRouter, Route, NavLink, Redirect, Switch} from 'react-router-dom'
 import Main from '@/containers/Main/Main'
+import GoodDetail from '@/containers/GoodDetail/GoodDetail'
+import { Provider } from 'react-redux'
+import {store} from '@/store'
 
 export default class extends Component {
     constructor(props) {
@@ -9,11 +12,15 @@ export default class extends Component {
 
     render() {
         return (
-            <HashRouter>
-                <Switch>
-                    <Route path='/' component={Main}></Route>
-                </Switch>
-            </HashRouter>
+            <Provider store={store}>
+                <HashRouter>
+                    <div>
+                        <Route exact path="/" render={() => (<Redirect to="/main/home"/>)}/>
+                        <Route path='/main' component={Main}></Route>
+                        <Route exact path='/detail' component={GoodDetail}></Route>
+                    </div>
+                </HashRouter>
+            </Provider>
         )
     }
 }

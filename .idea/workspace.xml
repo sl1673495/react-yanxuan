@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/containers/GoodDetail/style.less" line="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="01006e54-1333-4152-88e8-a50f69caf39e" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/static/css/main.d31e1073.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/static/js/main.a62cc58d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/static/js/main.a62cc58d.js.map" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/css/main.c58e3040.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/css/main.c58e3040.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/js/main.e9981952.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/js/main.e9981952.js.map" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Badge/Badge.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Badge/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CartControl/CartControl.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CartControl/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/asset-manifest.json" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/service-worker.js" afterPath="$PROJECT_DIR$/docs/service-worker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/static/css/main.c58e3040.css.map" afterPath="$PROJECT_DIR$/docs/static/css/main.d31e1073.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx" afterPath="$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CartIcon/CartIcon.jsx" afterPath="$PROJECT_DIR$/src/components/CartIcon/CartIcon.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CartIcon/style.less" afterPath="$PROJECT_DIR$/src/components/CartIcon/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx" afterPath="$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/PolicyList/style.less" afterPath="$PROJECT_DIR$/src/components/PolicyList/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/XScroll/XScroll.jsx" afterPath="$PROJECT_DIR$/src/components/XScroll/XScroll.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/GoodDetail/GoodDetail.jsx" afterPath="$PROJECT_DIR$/src/containers/GoodDetail/GoodDetail.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/GoodDetail/style.less" afterPath="$PROJECT_DIR$/src/containers/GoodDetail/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Main/Home/Home.less" afterPath="$PROJECT_DIR$/src/containers/Main/Home/Home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Main/Main.jsx" afterPath="$PROJECT_DIR$/src/containers/Main/Main.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx" afterPath="$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Main/ShopCart/style.less" afterPath="$PROJECT_DIR$/src/containers/Main/ShopCart/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/Router/Router.jsx" afterPath="$PROJECT_DIR$/src/containers/Router/Router.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/js/util.js" afterPath="$PROJECT_DIR$/src/static/js/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/index.js" afterPath="$PROJECT_DIR$/src/store/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,77 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Main/Home/Home.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-              <folding>
-                <element signature="e#996#2147#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iconfont.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/static/fonts/iconfont.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageSwipper.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/ImageSwipper/ImageSwipper.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Router.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Router/Router.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopCart.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ShopCart.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="288">
+              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -105,11 +52,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsSwiper.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx">
+      <file leaf-file-name="CartControl.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CartControl/CartControl.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CartControl/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BrandCard.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartIcon.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/CartIcon/CartIcon.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Badge.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Badge/Badge.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Badge/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -118,8 +121,22 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Main/ShopCart/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="411">
+              <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+              <folding>
+                <element signature="e#70#217#0" expanded="false" />
+                <element signature="e#237#262#0" expanded="false" />
+                <element signature="e#441#779#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixin.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/static/css/mixin.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -154,6 +171,8 @@
       <find>homepage</find>
       <find>li</find>
       <find>containers/Home/Home</find>
+      <find>goods</find>
+      <find>shopCart</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,17 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/containers/Home/style.less" />
-        <option value="$PROJECT_DIR$/src/components/HomeHeader/HomeHeader.js" />
-        <option value="$PROJECT_DIR$/config/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/src/components/Category/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Advertise/Advertise.jsx" />
-        <option value="$PROJECT_DIR$/src/static/css/variable.less" />
-        <option value="$PROJECT_DIR$/src/components/Category/style.less" />
-        <option value="$PROJECT_DIR$/src/components/Advertise/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/HomeHeader/style.less" />
         <option value="$PROJECT_DIR$/src/components/Advertise/style.less" />
         <option value="$PROJECT_DIR$/src/components/XScroll/XScroll.js" />
         <option value="$PROJECT_DIR$/src/containers/Home/TypeList/TypeList.jsx" />
@@ -181,17 +189,13 @@
         <option value="$PROJECT_DIR$/src/components/TypeList/TypeList.jsx" />
         <option value="$PROJECT_DIR$/src/components/PolicyList.jsx" />
         <option value="$PROJECT_DIR$/src/components/BrandCard/style.less" />
-        <option value="$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx" />
         <option value="$PROJECT_DIR$/src/components/Swipper/Swipper.jsx" />
         <option value="$PROJECT_DIR$/src/components/Swipper/style.less" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/ColorPanel/ColorPanel.jsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/PolicyList/PolicyList.jsx" />
         <option value="$PROJECT_DIR$/src/components/GoodsSwiper/style.js" />
-        <option value="$PROJECT_DIR$/src/components/XScroll/XScroll.jsx" />
         <option value="$PROJECT_DIR$/src/static/css/mixin.less" />
-        <option value="$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx" />
         <option value="$PROJECT_DIR$/src/components/GoodsSwiper/style.less" />
         <option value="$PROJECT_DIR$/src/components/ImageSwipper/style.less" />
         <option value="$PROJECT_DIR$/src/components/XScroll/style.less" />
@@ -203,16 +207,31 @@
         <option value="$PROJECT_DIR$/src/static/css/reset.css" />
         <option value="$PROJECT_DIR$/src/containers/Home/Home.less" />
         <option value="$PROJECT_DIR$/src/Router/style.less" />
-        <option value="$PROJECT_DIR$/src/Router/Router.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/Main/Main.jsx" />
-        <option value="$PROJECT_DIR$/src/components/PolicyList/style.less" />
         <option value="$PROJECT_DIR$/src/containers/Main/Home/Home.js" />
-        <option value="$PROJECT_DIR$/src/containers/Main/Home/Home.less" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/Main/ShopCart/style.less" />
         <option value="$PROJECT_DIR$/src/static/css/common.css" />
         <option value="$PROJECT_DIR$/src/components/ImageSwipper/ImageSwipper.jsx" />
+        <option value="$PROJECT_DIR$/src/Router/Router.jsx" />
+        <option value="$PROJECT_DIR$/src/components/XScroll/XScroll.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Main/Home/Home.less" />
+        <option value="$PROJECT_DIR$/src/components/PolicyList/style.less" />
+        <option value="$PROJECT_DIR$/src/containers/GoodDetail/style.less" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/static/js/util.js" />
+        <option value="$PROJECT_DIR$/src/components/CartIcon/style.less" />
+        <option value="$PROJECT_DIR$/src/components/CartIcon/CartIcon.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/GoodDetail/GoodDetail.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Router/Router.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Main/Main.jsx" />
+        <option value="$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Badge/style.less" />
+        <option value="$PROJECT_DIR$/src/components/Badge/Badge.jsx" />
+        <option value="$PROJECT_DIR$/src/containers/Main/ShopCart/style.less" />
+        <option value="$PROJECT_DIR$/src/components/CartControl/CartControl.jsx" />
+        <option value="$PROJECT_DIR$/src/components/CartControl/style.less" />
+        <option value="$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx" />
       </list>
     </option>
   </component>
@@ -274,18 +293,89 @@
             <path>
               <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="jest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="CartControl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="GoodDetail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="ShopCart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-dianping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-dianping" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,11 +400,11 @@
       <recent name="H:\ssh\react-dianping" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\ssh\react-dianping\src\containers" />
       <recent name="H:\ssh\react-dianping\src\containers\Main" />
       <recent name="H:\ssh\react-dianping\src\components\PolicyList" />
       <recent name="H:\ssh\react-dianping\src\static\js" />
       <recent name="H:\ssh\react-dianping\src\components" />
-      <recent name="H:\ssh\react-dianping\src\components\HomeHeader" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,7 +457,7 @@
       <workItem from="1525063223471" duration="5284000" />
       <workItem from="1525095847079" duration="20000" />
       <workItem from="1525496596214" duration="35990000" />
-      <workItem from="1525579463452" duration="9962000" />
+      <workItem from="1525579463452" duration="38461000" />
     </task>
     <task id="LOCAL-00001" summary="购物车加入">
       <created>1525590379072</created>
@@ -390,16 +480,24 @@
       <option name="project" value="LOCAL" />
       <updated>1525591091183</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="购物车加入">
+      <created>1525591190617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525591190617</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69146000" />
+    <option name="totallyTimeSpent" value="97645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12223393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12223393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -407,7 +505,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32317737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33079433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33079433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -435,39 +533,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.css" />
-    <entry file="file://$PROJECT_DIR$/src/static/fonts/font.css" />
-    <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-server/client/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeHeader/style.less" />
-    <entry file="file://$PROJECT_DIR$/src/components/Category/style.less" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeHeader/HomeHeader.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Advertise/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/Advertise/style.less" />
-    <entry file="file://$PROJECT_DIR$/src/components/Category/index.jsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/XScroll/XScroll.js" />
     <entry file="file://$PROJECT_DIR$/src/static/js/reset.js" />
     <entry file="file://$PROJECT_DIR$/src/static/css/variable.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -518,21 +594,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/static/css/main.c58e3040.css" />
     <entry file="file://$PROJECT_DIR$/src/components/GoodsSwiper/style.js" />
-    <entry file="file://$PROJECT_DIR$/src/static/css/mixin.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/XScroll/XScroll.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ImageSwipper/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -573,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="100" column="2" lean-forward="false" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="16" />
-          <folding>
-            <marker date="1525584293083" expanded="true" signature="89:96" ph="{&quot;react&quot;: &quot;^16.3.2&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/webpack.config.prod.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -615,16 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ColorPanel/ColorPanel.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -649,26 +690,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Main/style.less">
+    <entry file="file://$PROJECT_DIR$/src/static/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Main/Main.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/ImageSwipper/ImageSwipper.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="108">
+          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/XScroll/XScroll.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PolicyList/style.less">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="18">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="12" />
+          <folding>
+            <marker date="1525593272256" expanded="true" signature="89:96" ph="{&quot;react&quot;: &quot;^16.3.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -681,46 +750,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Main/ShopCart/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GoodsSwiper/GoodsSwiper.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Main/Home/Home.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#996#2147#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/css/common.css">
+    <entry file="file://$PROJECT_DIR$/src/components/PolicyList/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -728,15 +761,23 @@
     <entry file="file://$PROJECT_DIR$/src/static/fonts/iconfont.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="584" column="8" lean-forward="false" selection-start-line="584" selection-start-column="8" selection-end-line="584" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Main/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="193" column="18" lean-forward="true" selection-start-line="193" selection-start-column="18" selection-end-line="193" selection-end-column="18" />
+        <state relative-caret-position="-106">
+          <caret line="127" column="41" lean-forward="false" selection-start-line="127" selection-start-column="41" selection-end-line="127" selection-end-column="41" />
           <folding>
             <element signature="e#492#1821#0" expanded="false" />
             <element signature="e#4311#5425#0" expanded="false" />
@@ -744,28 +785,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ImageSwipper/ImageSwipper.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/Main/Home/Home.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+        <state relative-caret-position="238">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="e#1016#2167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Main/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CartIcon/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Router/Router.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/static/js/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="648">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Router/Router.jsx">
+    <entry file="file://$PROJECT_DIR$/src/containers/Main/Main.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="74" lean-forward="false" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/GoodDetail/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="124" column="12" lean-forward="false" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="12" />
+          <folding>
+            <element signature="e#100#873#0" expanded="false" />
+            <element signature="e#892#2766#0" expanded="false" />
+            <element signature="e#2779#3402#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/GoodDetail/GoodDetail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/mixin.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Badge/Badge.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Badge/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BrandCard/BrandCard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CartIcon/CartIcon.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Main/ShopCart/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding>
+            <element signature="e#70#217#0" expanded="false" />
+            <element signature="e#237#262#0" expanded="false" />
+            <element signature="e#441#779#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CartControl/CartControl.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CartControl/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

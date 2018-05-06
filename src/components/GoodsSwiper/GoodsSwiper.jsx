@@ -3,15 +3,22 @@
  */
 import React, {Component} from 'react';
 import XScroll from '@/components/XScroll/XScroll'
+import {store, setCurrentGoods} from '@/store'
+import {withRouter} from 'react-router-dom';
 import './style.less'
 
-export default class extends Component {
+ class GoodsSwiper extends Component {
     constructor(props) {
         super(props)
     }
 
     static defaultProps = {
         goods: []
+    }
+
+    handleGoodClick = (index) => {
+        store.dispatch(setCurrentGoods(this.props.goods[index]))
+        this.props.history.push('/detail')
     }
 
     render() {
@@ -22,7 +29,7 @@ export default class extends Component {
                     {
                         goods.map((good,index) => {
                             return (
-                                <li className="item" key={index}>
+                                <li className="item" key={index} onClick={() => this.handleGoodClick(index)}>
                                     <div className="img-wrapper">
                                         <img src={good.img} />
                                     </div>
@@ -46,3 +53,5 @@ export default class extends Component {
         )
     }
 }
+
+export default withRouter(GoodsSwiper)
