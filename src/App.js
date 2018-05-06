@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Home from '@/containers/Home/Home'
+import Router from '@/Router/Router'
 
 class App extends Component {
   render() {
-    return (
-      <Home />
-    );
+      return (
+          <Router />
+      )
   }
 }
 

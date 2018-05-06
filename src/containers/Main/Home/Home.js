@@ -47,6 +47,45 @@ const newGoods = [
     },
 ]
 
+const recommendGoods = [
+    {
+        img: 'http://yanxuan.nosdn.127.net/2b53cb18ae4773aaec4466d46746971f.png?imageView&quality=65&thumbnail=330x330',
+        name: '黑凤梨 20寸全铝镁合金登机箱',
+        price: 699,
+        describe: '41升超薄坚固，100%铝镁合金'
+    },
+    {
+        img: 'http://yanxuan.nosdn.127.net/5fe3aecd1557871bf86f5fff9a94eb5b.png?imageView&quality=65&thumbnail=330x330',
+        name: '新西兰制造 麦卢卡蜂蜜MGO250+',
+        price: 199,
+        describe: '新西兰国宝 麦卢卡养胃蜂蜜'
+    },
+    {
+        img: 'http://yanxuan.nosdn.127.net/71ba49bb2d5d1cde1499cad0e18f0ac2.png?imageView&quality=65&thumbnail=330x330',
+        name: '防蓝光电脑护目镜',
+        price: 129,
+        describe: '两款选择，护眼防蓝光'
+    },
+    {
+        img: 'http://yanxuan.nosdn.127.net/f8ad3c11137861430f52d124ffcd9a28.png?imageView&quality=65&thumbnail=330x330',
+        name: '有机皇菊 0.6克*20朵',
+        price: 78,
+        describe: '一级上品，严选有机'
+    },
+    {
+        img: 'http://yanxuan.nosdn.127.net/73a065d6fc8c32197b54421808c54788.png?imageView&quality=65&thumbnail=330x330',
+        name: '智能马桶盖',
+        price: 1599,
+        describe: '免费安装，即热恒温、暖风烘干、自动除臭'
+    },
+    {
+        img: 'http://yanxuan.nosdn.127.net/ee60377a8d743036f82ae0de1c42cab0.png?imageView&quality=65&thumbnail=330x330',
+        name: '100年传世珐琅锅',
+        price: 268,
+        describe: '仅售供应商建议价的1/10'
+    }
+]
+
 export default class Home extends Component {
     constructor(props) {
         super(props)
@@ -86,7 +125,9 @@ export default class Home extends Component {
                         'https://yanxuan.nosdn.127.net/e89d144dbf0721a17ec879041a515ca3.jpg?imageView&thumbnail=750x0&quality=75',
                         'https://yanxuan.nosdn.127.net/c6ddd46cce0b1a3467b1b3ee8597b683.jpg?imageView&thumbnail=750x0&quality=75'
                     ]}/>
-                <PolicyList policys={['网易自营品牌', '30天无忧退货', '48小时快速退款']}/>
+                <section className="home-policys">
+                    <PolicyList policys={['网易自营品牌', '30天无忧退货', '48小时快速退款']}/>
+                </section>
                 <section className="index-floor">
                     <header className="title">
                         <span className="text">
@@ -146,6 +187,9 @@ export default class Home extends Component {
                         textColor="#B4A078"
                         btnColor="#F4E9CB"
                     />
+                </section>
+                <section className="home-good-swiper">
+                    <GoodsSwiper goods={recommendGoods}/>
                 </section>
             </div>
         )
