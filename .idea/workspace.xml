@@ -2,64 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01006e54-1333-4152-88e8-a50f69caf39e" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Router/Router.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Main/Main.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Main/ShopCart/ShopCart.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Main/ShopCart/style.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/containers/Main/style.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/广告/bingqilin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/广告/chuguo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/广告/dianying.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/广告/dishini.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/广告/gangqin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/广告/xiche.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01丽人icon_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01休闲娱乐icon_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01周边游icon_10png.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01外卖icon_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01度假出行icon_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01火锅icon_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01电影icon_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01美食icon_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01足疗按摩icon_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/01酒店icon_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02KTVicon_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02亲子icon_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02小吃快餐icon_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02景点icon_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02生活服务icon_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02美发icon_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02自助餐icon_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02购物icon_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02运动健身icon_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/02酒吧icon_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03SPAicon_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03全部分类icon_10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03学习培训icon_4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03宠物icon_9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03家装icon_8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03日本菜icon_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03火车机票icon_6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03烧烤icon_7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03结婚icon_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/轮播图icon/03西餐icon_5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/首页01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/首页02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/static/UE/首页03.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/fonts/iconfont.eot" afterPath="$PROJECT_DIR$/src/static/fonts/iconfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/fonts/iconfont.ttf" afterPath="$PROJECT_DIR$/src/static/fonts/iconfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/fonts/iconfont.woff" afterPath="$PROJECT_DIR$/src/static/fonts/iconfont.woff" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/css/main.7a172515.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/css/main.7a172515.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/js/main.331fafd2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/js/main.331fafd2.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/media/iconfont.35c34edc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/media/iconfont.9570f38b.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/media/iconfont.dbf74139.eot" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ColorPanel/style.less" afterPath="$PROJECT_DIR$/src/components/ColorPanel/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/PolicyList/style.less" afterPath="$PROJECT_DIR$/src/components/PolicyList/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/css/reset.css" afterPath="$PROJECT_DIR$/src/static/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/fonts/iconfont.css" afterPath="$PROJECT_DIR$/src/static/fonts/iconfont.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/fonts/iconfont.js" afterPath="$PROJECT_DIR$/src/static/fonts/iconfont.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/static/fonts/iconfont.svg" afterPath="$PROJECT_DIR$/src/static/fonts/iconfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" afterPath="$PROJECT_DIR$/src/containers/Main/Home/Home.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/containers/Home/Home.less" afterPath="$PROJECT_DIR$/src/containers/Main/Home/Home.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/asset-manifest.json" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/service-worker.js" afterPath="$PROJECT_DIR$/docs/service-worker.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -108,8 +61,8 @@
       <file leaf-file-name="ImageSwipper.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ImageSwipper/ImageSwipper.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -501,12 +454,20 @@
       <workItem from="1525063223471" duration="5284000" />
       <workItem from="1525095847079" duration="20000" />
       <workItem from="1525496596214" duration="35990000" />
-      <workItem from="1525579463452" duration="9137000" />
+      <workItem from="1525579463452" duration="9216000" />
     </task>
+    <task id="LOCAL-00001" summary="购物车加入">
+      <created>1525590379072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525590379072</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68321000" />
+    <option name="totallyTimeSpent" value="68400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -539,6 +500,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="购物车加入" />
+    <option name="LAST_COMMIT_MESSAGE" value="购物车加入" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ImageSwipper/ImageSwipper.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="270">
+          <caret line="33" column="68" lean-forward="true" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
