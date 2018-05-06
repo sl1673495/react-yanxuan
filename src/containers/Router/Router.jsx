@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter,Route,NavLink,Redirect,Switch   } from 'react-router-dom'
+import { HashRouter,Route,NavLink,Redirect,Switch   } from 'react-router-dom'
 import Main from '@/containers/Main/Main'
 
 export default class extends Component {
@@ -9,11 +9,11 @@ export default class extends Component {
 
     render() {
         return (
-            <BrowserRouter>
+            <HashRouter>
                 <Switch>
                     <Route path='/' component={Main}></Route>
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         )
     }
 }
