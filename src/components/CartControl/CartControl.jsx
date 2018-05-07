@@ -6,15 +6,26 @@ export default class extends Component {
         super(props)
     }
 
+    handleClickDecrease = () => {
+        const {onDecrease,value} = this.props
+        onDecrease && (value > 1) && onDecrease()
+    }
+
+    handleClickAdd = () => {
+        const {onAdd} = this.props
+        onAdd && onAdd()
+    }
+
     render() {
         const {value} = this.props
+        const decreaseCls = value > 1 ? 'decrease' : 'decrease disabled'
         return (
             <div className="cart-control">
-                <div className="decrese">-</div>
+                <div className={decreaseCls} onTouchStart={this.handleClickDecrease}>-</div>
                 <div className="input">
                     {value}
                 </div>
-                <div className="add" >+</div>
+                <div className="add" onTouchStart={this.handleClickAdd}>+</div>
             </div>
         )
     }

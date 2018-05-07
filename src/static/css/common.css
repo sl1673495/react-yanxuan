@@ -25,3 +25,18 @@ input {
 li {
     list-style: none;
 }
+
+input[type='checkbox']{
+    width:.18rem;
+    height: .18rem;
+    background-color: #fff;
+    -webkit-appearance:none;
+    border: 1px solid #c9c9c9;
+    border-radius: 2px;
+    outline: none;
+}
+
+input[type=checkbox]:checked{
+    background: url("../image/对勾.png")no-repeat center;
+    background-size: 100% 100%;
+}

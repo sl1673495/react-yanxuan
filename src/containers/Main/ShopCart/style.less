@@ -1,6 +1,7 @@
 @import "~@/static/css/mixin.less";
 
 .shop-cart {
+  padding-bottom: .5rem;
   .shop-cart-header {
     background: #fff;
     line-height: .45rem;
@@ -13,10 +14,15 @@
     padding: .1rem;
   }
   .discount {
+    display: flex;
+    align-items: center;
     background: #fff;
     color: #333;
     font-size: .16rem;
     padding: .13rem;
+    .yx-badge {
+      margin-right: .05rem;
+    }
     .diff {
       color: #b4282d;
       font-size: .16rem;
@@ -49,7 +55,10 @@
       padding: .15rem;
       margin-bottom: .1rem;
       .radio {
-        flex: 0 0 .2rem;
+        display: flex;
+        flex: 0 0 .3rem;
+        text-align: center;
+        align-items: center;
       }
       .img-wrapper {
         flex: 0 0 .9rem;
@@ -81,6 +90,49 @@
         position: absolute;
         right: .1rem;
         top: 50%;
+      }
+    }
+  }
+  .accounts-bar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: .5rem;
+    bottom: .5rem;
+    z-index: 1;
+    background: #fff;
+    .check-wrapper {
+      display: flex;
+      align-items: center;
+      flex: 0 0 auto;
+      font-size: .15rem;
+      padding: 0 20px;
+      input {
+        margin-right: .1rem;
+      }
+    }
+    .pay-wrapper {
+      display: flex;
+      flex: 0 0 auto;
+      height: 100%;
+      line-height: .5rem;
+      .price {
+        padding-right: .2rem;
+        font-size: .15rem;
+        color: #b4282d;
+      }
+      .pay-button {
+        text-align: center;
+        width: 1.3rem;
+        height: 100%;
+        color: #fff;
+        font-size: .15rem;
+        background: #ccc;
+        &.enough {
+          background: #b4282d;
+        }
       }
     }
   }

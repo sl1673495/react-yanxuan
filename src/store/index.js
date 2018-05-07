@@ -1,4 +1,4 @@
-import { createStore } from 'redux';
+import { createStore,combineReducers } from 'redux';
 
 const defaultState = {
     currentGood: {},
@@ -21,35 +21,53 @@ export const addToCart = (good) => {
     }
 }
 
-
-const reducer = function (state, action) {
-    switch (action.type) {
-        case 'SET_CURRENT_GOOD':
-            const {good} = action
-            const newState = Object.assign({}, state, {
-                currentGood: good
-            })
-            return newState
-        case 'ADD_TO_CART':
-            const {shopCartGoods} = state
-            const copyGoods = shopCartGoods.slice()
-            const addGood = action.good
-            const exsitGood = copyGoods.find(good => good.name === addGood.name)
-            if (exsitGood) {
-                exsitGood.number ++
-            }else {
-                addGood.number = 1
-                copyGoods.push(addGood)
-            }
-            return Object.assign({}, state, {
-                shopCartGoods: copyGoods
-            })
-        default:
-            return state;
+// 减少数量
+export const decreaseFromCart = (good) => {
+    return {
+        type: 'DECREASE_FROM_CART',
+        good
     }
 }
 
-export const store = createStore(reducer,defaultState)
+const cartReducer = function(shopCartGoods,action){
+    const copyGoods = shopCartGoods.slice()
+    const actionGood = action.good
+    const exsitGood = copyGoods.find(good => good.name === actionGood.name)
+    switch (action.type) {
+        case 'ADD_TO_CART':
+            if (exsitGood) {
+                exsitGood.number ++
+            }else {
+                actionGood.number = 1
+                copyGoods.push(actionGood)
+            }
+            return copyGoods
+        case 'DECREASE_FROM_CART':
+            exsitGood.number --
+            return copyGoods
+        default:
+            return shopCartGoods;
+    }
+}
+
+const goodReducer = function (currentGood, action) {
+    switch (action.type) {
+        case 'SET_CURRENT_GOOD':
+            const {good} = action
+            return good
+        default:
+            return currentGood;
+    }
+}
+
+const rootReducer = (state = {}, action) => {
+    return {
+        currentGood: goodReducer(state.currentGood, action),
+        shopCartGoods: cartReducer(state.shopCartGoods, action)
+    }
+}
+
+export const store = createStore(rootReducer,defaultState)
 
 // 商品数量
 export const goodsNum = () => {
