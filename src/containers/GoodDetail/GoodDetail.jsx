@@ -20,6 +20,10 @@ class GoodDetail extends Component {
         this.currentGood = currentGood
     }
 
+    componentDidMount() {
+        document.querySelector('html').scrollTop = 0
+    }
+
     toHome = () => {
         this.props.history.push('/main/home')
     }
@@ -51,7 +55,7 @@ class GoodDetail extends Component {
                     <header className="good-detail-header">
                         <i className="iconfont icon-shouye home" onClick={this.toHome}/>
                         <p className="title">
-                            <i className="logo" />
+                            网易严选
                         </p>
                         <CartIcon onClick={this.handleCartClick} getCartRef={ref => this.shopCart = ref}/>
                     </header>
