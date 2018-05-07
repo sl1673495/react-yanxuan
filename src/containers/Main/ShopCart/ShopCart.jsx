@@ -61,7 +61,6 @@ class ShopCart extends Component {
     handleCheckAll = (e) => {
         const checked = e.target.checked
         const selectedMap =  this.state.selectedMap
-        console.log(checked)
         Object.keys(selectedMap).forEach(key => selectedMap[key] = checked)
         this.setState({
             selectedMap
@@ -69,7 +68,8 @@ class ShopCart extends Component {
     }
 
     pay = () => {
-        alert('支付' +  this.selectedPrice + '元')
+        const amount = this.selectedPrice
+        amount > 0 && alert('支付' +  amount + '元')
     }
 
     render() {
@@ -117,31 +117,43 @@ class ShopCart extends Component {
                 {
                     goods.length
                         ?
-                        <section className="cart-good-list">
-                            {
-                                goods.map((good, index) => {
-                                    return (
-                                        <div className="good-item" key={index}>
-                                            <div className="radio">
-                                                <input checked={selectedMap[index]} onChange={ e => this.handleCheck(e,index)} type="checkbox" />
+                        <div>
+                            <section className="cart-good-list">
+                                {
+                                    goods.map((good, index) => {
+                                        return (
+                                            <div className="good-item" key={index}>
+                                                <div className="radio">
+                                                    <input checked={selectedMap[index]} onChange={ e => this.handleCheck(e,index)} type="checkbox" />
+                                                </div>
+                                                <div className="img-wrapper">
+                                                    <img src={good.img}/>
+                                                </div>
+                                                <div className="good-info">
+                                                    <p className="name">{good.name}</p>
+                                                    <p className="price">￥{good.price}</p>
+                                                </div>
+                                                <div className="control">
+                                                    <CartControl onAdd={this.handleControlEvent('ADD', index)}
+                                                                 onDecrease={this.handleControlEvent('DECREASE', index)}
+                                                                 value={good.number}/>
+                                                </div>
                                             </div>
-                                            <div className="img-wrapper">
-                                                <img src={good.img}/>
-                                            </div>
-                                            <div className="good-info">
-                                                <p className="name">{good.name}</p>
-                                                <p className="price">￥{good.price}</p>
-                                            </div>
-                                            <div className="control">
-                                                <CartControl onAdd={this.handleControlEvent('ADD', index)}
-                                                             onDecrease={this.handleControlEvent('DECREASE', index)}
-                                                             value={good.number}/>
-                                            </div>
-                                        </div>
-                                    )
-                                })
-                            }
-                        </section>
+                                        )
+                                    })
+                                }
+                            </section>
+                            <section className="accounts-bar">
+                                <div className="check-wrapper">
+                                    <input checked={checkAllValue} onChange={this.handleCheckAll} type="checkbox" />  已选({selectedNum})
+                                </div>
+                                <div className="pay-wrapper">
+                                    <span className="price">￥{selectedPrice}</span>
+                                    <div className={payCls} onClick={this.pay}>下单</div>
+                                </div>
+                            </section>
+                        </div>
+
                         :
                         <section className="no-goods">
                             <img
@@ -152,15 +164,7 @@ class ShopCart extends Component {
                         </section>
 
                 }
-                <section className="accounts-bar">
-                    <div className="check-wrapper">
-                      <input checked={checkAllValue} onChange={this.handleCheckAll} type="checkbox" />  已选({selectedNum})
-                    </div>
-                    <div className="pay-wrapper">
-                        <span className="price">￥{selectedPrice}</span>
-                        <div className={payCls} onClick={this.pay}>下单</div>
-                    </div>
-                </section>
+
             </div>
         )
     }
