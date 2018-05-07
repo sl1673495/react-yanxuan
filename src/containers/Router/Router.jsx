@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {HashRouter, Route, NavLink, Redirect, Switch} from 'react-router-dom'
+import {HashRouter, Route, Redirect} from 'react-router-dom'
 import Main from '@/containers/Main/Main'
 import GoodDetail from '@/containers/GoodDetail/GoodDetail'
 import { Provider } from 'react-redux'

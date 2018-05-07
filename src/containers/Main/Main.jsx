@@ -3,7 +3,6 @@ import { BrowserRouter,Route,NavLink   } from 'react-router-dom'
 import Home from '@/containers/Main/Home/Home'
 import ShopCart from '@/containers/Main/ShopCart/ShopCart'
 import CartIcon from '@/components/CartIcon/CartIcon'
-
 import './style.less'
 
 // 主页包含购物车，首页
