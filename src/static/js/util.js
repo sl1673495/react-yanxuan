@@ -10,12 +10,13 @@ export const ballToElement = (e,
                               }) => {
     return new Promise((resolve) => {
         const nativeEvent = e.nativeEvent.touches[0]
-        const {ballWidth, ballColor, callBack} = option
+        const {ballWidth, ballColor} = option
         // 获取初始位置
         const [x, y] = [nativeEvent.clientX , nativeEvent.clientY]
         // 获取终点位置
         const finalPos = el.getBoundingClientRect()
-        const [finalX,finalY] = [finalPos.x, finalPos.y]
+        console.log(finalPos)
+        const [finalX,finalY] = [finalPos.left, finalPos.top]
         const ball = document.createElement('div')
         document.body.appendChild(ball)
         ball.style.cssText =
@@ -33,6 +34,7 @@ export const ballToElement = (e,
             resolve()
         })
         setTimeout(() => {
+            console.log(finalY,finalX)
             ball.style.top = `${finalY + ballWidth / 2}px`
             ball.style.left = `${finalX + ballWidth / 2}px`
         },0)
