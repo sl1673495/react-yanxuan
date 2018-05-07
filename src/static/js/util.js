@@ -33,7 +33,6 @@ export const ballToElement = (e,
             resolve()
         })
         setTimeout(() => {
-            console.log(finalY,finalX)
             ball.style.top = `${finalY + ballWidth / 2}px`
             ball.style.left = `${finalX + ballWidth / 2}px`
         },0)
