@@ -15,7 +15,6 @@ export const ballToElement = (e,
         const [x, y] = [nativeEvent.clientX , nativeEvent.clientY]
         // 获取终点位置
         const finalPos = el.getBoundingClientRect()
-        console.log(finalPos)
         const [finalX,finalY] = [finalPos.left, finalPos.top]
         const ball = document.createElement('div')
         document.body.appendChild(ball)

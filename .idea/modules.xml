@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-dianping.iml" filepath="$PROJECT_DIR$/.idea/react-dianping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-yx.iml" filepath="$PROJECT_DIR$/.idea/react-yx.iml" />
     </modules>
   </component>
 </project>
