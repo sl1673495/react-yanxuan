@@ -20,6 +20,10 @@ class GoodDetail extends Component {
         this.currentGood = currentGood
     }
 
+    componentDidMount() {
+        document.querySelector('html').scrollTop = 0
+    }
+
     toHome = () => {
         this.props.history.push('/main/home')
     }
