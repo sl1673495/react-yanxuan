@@ -14,11 +14,11 @@ export default class extends Component {
         return (
             <Provider store={store}>
                 <HashRouter>
-                    <div>
+                    <React.Fragment>
                         <Route exact path="/" render={() => (<Redirect to="/main/home"/>)}/>
                         <Route path='/main' component={Main}></Route>
                         <Route exact path='/detail' component={GoodDetail}></Route>
-                    </div>
+                    </React.Fragment>
                 </HashRouter>
             </Provider>
         )
