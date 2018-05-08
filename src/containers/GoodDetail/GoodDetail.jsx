@@ -21,7 +21,7 @@ class GoodDetail extends Component {
     }
 
     componentDidMount() {
-        document.querySelector('html').scrollTop = 0
+        document.querySelector('body').scrollTop = 0
     }
 
     toHome = () => {
