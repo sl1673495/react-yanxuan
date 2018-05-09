@@ -4,13 +4,17 @@ export const isEmpty = (obj) => {
 
 export const ballToElement = (e,
                               el,
-                              option = {
-                                  ballWidth: 20,
-                                  ballColor: '#b4282d'
-                              }) => {
+                              option = {}) => {
+
     return new Promise((resolve) => {
+        const initOptions = {
+            ballWidth: 20,
+            ballColor: '#b4282d',
+            timingFunction:'all .5s cubic-bezier(0,0,0.28,1)',
+            ...option
+        }
         const nativeEvent = e.nativeEvent.touches[0]
-        const {ballWidth, ballColor} = option
+        const {ballWidth, ballColor, timingFunction} = initOptions
         // 获取初始位置
         const [x, y] = [nativeEvent.clientX , nativeEvent.clientY]
         // 获取终点位置
@@ -27,7 +31,7 @@ export const ballToElement = (e,
             `background: ${ballColor};` +
             'z-index: 2; ' +
             'border-radius: 50%;' +
-            `transition: all .5s  cubic-bezier(0,0,0.18,1);`
+            `transition: ${timingFunction};`
         ball.addEventListener('transitionend', function () {
             this.remove()
             resolve()
