@@ -5,6 +5,8 @@ import {bindActionCreators} from 'redux';
 import Badge from '@/components/Badge/Badge'
 import CartControl from '@/components/CartControl/CartControl'
 import {addToCart, decreaseFromCart} from '@/store'
+import {ballToElement} from "@/static/js/util";
+import ReactDOM from 'react-dom'
 
 import './style.less'
 
@@ -34,18 +36,21 @@ class ShopCart extends Component {
         }
     }
 
-    handleControlEvent = (emitName, index) => {
+    handleControlEvent = (emitName, index, e) => {
         const {goods, addToCart, decreaseFromCart} = this.props
         const clickGood = goods[index]
         switch (emitName) {
             case 'ADD' :
-                return () => {
-                    addToCart(clickGood)
-                }
+                ballToElement(e, ReactDOM.findDOMNode(this.refs.checkWrapper), {
+                    timingFunction: 'left .5s linear, top .5s cubic-bezier(0.82,0,1,1)'
+                })
+                addToCart(clickGood)
+                break
             case 'DECREASE':
-                return () => {
-                    decreaseFromCart(clickGood)
-                }
+                decreaseFromCart(clickGood)
+                break
+            default:
+                return
         }
     }
 
@@ -124,7 +129,7 @@ class ShopCart extends Component {
                                         return (
                                             <div className="good-item" key={index}>
                                                 <div className="radio">
-                                                    <input checked={selectedMap[index]} onChange={ e => this.handleCheck(e,index)} type="checkbox" />
+                                                    <input checked={selectedMap[index]} onChange={e => this.handleCheck(e,index)} type="checkbox" />
                                                 </div>
                                                 <div className="img-wrapper">
                                                     <img src={good.img}/>
@@ -134,8 +139,8 @@ class ShopCart extends Component {
                                                     <p className="price">￥{good.price}</p>
                                                 </div>
                                                 <div className="control">
-                                                    <CartControl onAdd={this.handleControlEvent('ADD', index)}
-                                                                 onDecrease={this.handleControlEvent('DECREASE', index)}
+                                                    <CartControl onAdd={e => this.handleControlEvent('ADD', index, e)}
+                                                                 onDecrease={e => this.handleControlEvent('DECREASE', index)}
                                                                  value={good.number}/>
                                                 </div>
                                             </div>
@@ -144,7 +149,7 @@ class ShopCart extends Component {
                                 }
                             </section>
                             <section className="accounts-bar">
-                                <div className="check-wrapper">
+                                <div className="check-wrapper" ref="checkWrapper">
                                     <input checked={checkAllValue} onChange={this.handleCheckAll} type="checkbox" />  已选({selectedNum})
                                 </div>
                                 <div className="pay-wrapper">

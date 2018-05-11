@@ -6,14 +6,14 @@ export default class extends Component {
         super(props)
     }
 
-    handleClickDecrease = () => {
+    handleClickDecrease = (e) => {
         const {onDecrease,value} = this.props
-        onDecrease && (value > 1) && onDecrease()
+        onDecrease && (value > 1) && onDecrease(e)
     }
 
-    handleClickAdd = () => {
+    handleClickAdd = (e) => {
         const {onAdd} = this.props
-        onAdd && onAdd()
+        onAdd && onAdd(e)
     }
 
     render() {

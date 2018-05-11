@@ -43,6 +43,14 @@ class GoodDetail extends Component {
             })
     }
 
+    handleBuyNow = (e) => {
+        ballToElement(e, ReactDOM.findDOMNode(this.shopCart))
+            .then(() => {
+                this.addCart()
+                this.props.history.push('/main/shopcart')
+            })
+    }
+
     addCart = () => {
         store.dispatch(addToCart(this.currentGood))
     }
@@ -98,7 +106,7 @@ class GoodDetail extends Component {
                     <div className="back">
                         <i className="iconfont icon-ziyuan" onClick={this.handleBackClick} />
                     </div>
-                    <div className="item buy-now">立即购买</div>
+                    <div className="item buy-now" onTouchStart={this.handleBuyNow}>立即购买</div>
                     <div className="item add-cart" onTouchStart={this.handleAddCart}>加入购物车</div>
                 </div>
             </div>
