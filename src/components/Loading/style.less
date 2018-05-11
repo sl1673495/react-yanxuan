@@ -1,0 +1,23 @@
+.loading-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255 ,.7);
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3D(-50%, -50%, 0);
+    font-size: .3rem;
+    margin: auto;
+    animation: myrorate 1.5s linear infinite ;
+  }
+}
+
+@keyframes myrorate
+{
+  from {transform:translate3D(-50%, -50%, 0) rotate(0);}
+  to {transform: translate3D(-50%, -50%, 0) rotate(360deg)}
+}
